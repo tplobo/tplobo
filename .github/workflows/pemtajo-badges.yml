@@ -1,4 +1,4 @@
-name: Update Badges (pemtajo)
+name: Update Badges
 
 env:
   CREDLY_USERNAME: tiago-pomella-lobo
@@ -34,7 +34,7 @@ jobs: # A workflow run is made up of one or more jobs that can run sequentially 
         # uses: michaelcontento/credly-import-action@6fddb351e98b01db7407151970e0bd8b12ce27a3
         uses: michaelcontento/credly-import-action@v1.0.1 # You may pin to the exact commit or the version.
         with:
-          username: $CREDLY_USERNAME # Username on credly
+          username: tiago-pomella-lobo # Username on credly
           #datafile: # Filename where to store the JSON file (optional, default is CredlyBadges.json)
           #imagedir: # Path where to store the badge images (optional, default is CredlyBadges)
           #skip_image_downloading: # Wether or not we should download the badge images at all (optional, default is 0)
@@ -43,7 +43,7 @@ jobs: # A workflow run is made up of one or more jobs that can run sequentially 
         # Reference: https://pemtajo.medium.com/how-to-improve-your-github-profile-by-adding-badges-2c10363f4f9a
         uses: pemtajo/badge-readme@main
         with:       
-          CREDLY_USER: $CREDLY_USERNAME # optional, but default will use the same from github
+          CREDLY_USER: tiago-pomella-lobo # optional, but default will use the same from github
           
       - name: Commit to branch
         uses: stefanzweifel/git-auto-commit-action@v4
