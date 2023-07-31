@@ -27,6 +27,11 @@ jobs: # A workflow run is made up of one or more jobs that can run sequentially 
       - name: Branch checkout 
         uses: actions/checkout@v3 # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
         
+      #- name: Import Credly Badges for Hugo (\michaelcontento)
+      #  uses: michaelcontento/credly2hugo-action@v1
+      #  with:
+      #    username: tiago-pomella-lobo # The user of whom we want to grab the infos
+        
       - name: Import Credly Badges (\michaelcontento)
         # uses: michaelcontento/credly-import-action@6fddb351e98b01db7407151970e0bd8b12ce27a3
         uses: michaelcontento/credly-import-action@v1.0.1 # You may pin to the exact commit or the version.
