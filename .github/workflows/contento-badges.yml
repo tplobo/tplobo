@@ -1,4 +1,4 @@
-name: Credly Badges
+name: Update Badges (Contento)
 # Reference: https://www.michaelcontento.de/en/article/2022/10/19/scraping-credly-with-github-actions/
 
 on: # Controls when the workflow will run
