@@ -15,6 +15,9 @@ jobs: # A workflow run is made up of one or more jobs that can run sequentially 
   build: # This workflow contains a single job called "build"
     
     runs-on: ubuntu-latest # The type of runner that the job will run on
+    
+    permissions: 
+      contents: write # Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
 
     steps: # Steps represent a sequence of tasks that will be executed as part of the job
       
