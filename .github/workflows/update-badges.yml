@@ -1,8 +1,5 @@
 name: Update Badges
 
-env:
-  CREDLY_USERNAME: tiago-pomella-lobo
-
 on: # Controls when the workflow will run
 
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -18,7 +15,7 @@ on: # Controls when the workflow will run
 
 jobs: # A workflow run is made up of one or more jobs that can run sequentially or in parallel
   
-  build: # This workflow contains a single job called "build"
+  download-and-update: # This workflow contains a single job called "download-and-update"
     
     runs-on: ubuntu-latest # The type of runner that the job will run on
     
