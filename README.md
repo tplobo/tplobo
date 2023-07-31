@@ -16,4 +16,5 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:badges-->
+[![Ansys CodeFest Participant](https://images.credly.com/size/110x110/images/5daffbd7-a270-455d-ac4f-25b4e839e462/image.png)](http://www.credly.com/badges/22d20d19-0ebc-498a-9fe7-fb7bdedb875b "Ansys CodeFest Participant")
 <!--END_SECTION:badges-->
