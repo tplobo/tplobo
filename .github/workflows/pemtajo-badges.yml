@@ -1,11 +1,6 @@
 name: Update Badges (pemtajo)
-# Reference: https://pemtajo.medium.com/how-to-improve-your-github-profile-by-adding-badges-2c10363f4f9a
 
 on: # Controls when the workflow will run
-
-  # Runs at 2am UTC
-  schedule:
-      - cron: "0 2 * * *"
 
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
@@ -13,18 +8,31 @@ on: # Controls when the workflow will run
   pull_request:
     branches: [ "main" ]
     
+  schedule:
+      - cron: "0 2 * * *" # Runs at 2am UTC
+
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  update-readme:
-    name: Update Readme with badges
-    runs-on: ubuntu-latest
-    steps:
-      - name: Badges - Readme
+jobs: # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  
+  build: # This workflow contains a single job called "build"
+    
+    runs-on: ubuntu-latest # The type of runner that the job will run on
+    
+    permissions: 
+      contents: write # Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
+
+    steps: # Steps represent a sequence of tasks that will be executed as part of the job
+    
+      - name: Branch checkout 
+        uses: actions/checkout@v3 # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        
+      - name: Update Readme with badges
         uses: pemtajo/badge-readme@main
         with:       
           CREDLY_USER: tiago-pomella-lobo # optional, but default will use the same from github
           
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: Commit to branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update generated README
