@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "accepted_at": "2023-07-31T02:37:34.680-05:00",
+      "badge_template": {
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "activity_type": "Participant",
+            "id": "4ae71558-1164-4c09-8d51-b467f5f29d80",
+            "required_badge_template_id": null,
+            "title": "As a participant in this event, individuals work as part of a team with students of differing education backgrounds to strategically use Ansys Developer Tools (ex. PyAnsys kits) and Python to create applications that solve real-world problems. They then present their solution as well as the challenges it helps solve to a team of judges comprised of Ansys experts and professors. This badge signifies the user’s successful participation in this full event.",
+            "url": null
+          }
+        ],
+        "cost": "Free",
+        "description": "As a participant in this event, individuals work as part of a team with students of differing education backgrounds to strategically use Ansys Developer Tools (ex. PyAnsys kits) and Python to create applications that solve real-world problems. They then present their solution as well as the challenges it helps solve to a team of judges comprised of Ansys experts and professors.",
+        "earn_this_badge_url": null,
+        "enable_detail_attribute_visibility": true,
+        "enable_earn_this_badge": false,
+        "endorsements": [],
+        "global_activity_url": "https://courses.ansys.com",
+        "id": "0f355e0f-cfaf-4bac-8e58-33004a01758b",
+        "image": {
+          "id": "5daffbd7-a270-455d-ac4f-25b4e839e462",
+          "url": "https://images.credly.com/images/5daffbd7-a270-455d-ac4f-25b4e839e462/image.png"
+        },
+        "image_url": "https://images.credly.com/images/5daffbd7-a270-455d-ac4f-25b4e839e462/image.png",
+        "issuer": {
+          "entities": [
+            {
+              "entity": {
+                "id": "c7b4adbd-be74-4ae2-bd90-bea13809fb46",
+                "internationalize_badge_templates": false,
+                "name": "Ansys",
+                "share_to_ziprecruiter": true,
+                "type": "Organization",
+                "url": "https://www.credly.com/api/v1/organizations/c7b4adbd-be74-4ae2-bd90-bea13809fb46",
+                "vanity_url": "https://www.credly.com/org/ansys",
+                "verified": false
+              },
+              "label": "Issued by",
+              "primary": true
+            }
+          ],
+          "summary": "issued by Ansys"
+        },
+        "level": "Foundational",
+        "name": "Ansys CodeFest Participant",
+        "show_badge_lmi": false,
+        "show_skill_tag_links": false,
+        "skills": [
+          {
+            "id": "12adc736-ffc7-4591-a3a3-554d9e40d185",
+            "name": "ANSYS",
+            "vanity_slug": "ansys"
+          },
+          {
+            "id": "dfea0f57-84f1-44e9-adf7-4065efecd324",
+            "name": "Presentation Skills",
+            "vanity_slug": "presentation-skills"
+          },
+          {
+            "id": "cbf023a6-2b1f-4d25-8b6e-7db8c8c67786",
+            "name": "PyAnsys",
+            "vanity_slug": "pyansys"
+          },
+          {
+            "id": "94c11ea3-cc1b-4177-9f1e-f98291a69850",
+            "name": "Python",
+            "vanity_slug": "python"
+          },
+          {
+            "id": "ee3dd0b7-4d04-443d-9618-7b506d6a1725",
+            "name": "Teamwork",
+            "vanity_slug": "teamwork"
+          },
+          {
+            "id": "1f232d2d-20ea-40eb-8a99-1934dc6763ea",
+            "name": "WebApps",
+            "vanity_slug": "webapps"
+          }
+        ],
+        "time_to_earn": "Hours",
+        "translatable": false,
+        "type_category": "Learning",
+        "url": "https://www.credly.com/org/ansys/badge/ansys-codefest-participant",
+        "vanity_slug": "ansys-codefest-participant"
+      },
+      "earner_path": "/users/tiago-pomella-lobo",
+      "earner_photo_url": "https://images.credly.com/images/b3258a96-5dc6-406c-9452-b0260e978763/blob.jpeg",
+      "evidence": [],
+      "expires_at": null,
+      "expires_at_date": null,
+      "id": "22d20d19-0ebc-498a-9fe7-fb7bdedb875b",
+      "image": {
+        "id": "5daffbd7-a270-455d-ac4f-25b4e839e462",
+        "url": "https://images.credly.com/images/5daffbd7-a270-455d-ac4f-25b4e839e462/image.png"
+      },
+      "image_url": "https://images.credly.com/images/5daffbd7-a270-455d-ac4f-25b4e839e462/image.png",
+      "is_private_badge": false,
+      "issued_at": "2023-07-30T19:00:00.000-05:00",
+      "issued_at_date": "2023-07-31",
+      "issued_to": "Tiago Pomella Lobo",
+      "issuer": {
+        "entities": [
+          {
+            "entity": {
+              "id": "c7b4adbd-be74-4ae2-bd90-bea13809fb46",
+              "internationalize_badge_templates": false,
+              "name": "Ansys",
+              "share_to_ziprecruiter": true,
+              "type": "Organization",
+              "url": "https://www.credly.com/api/v1/organizations/c7b4adbd-be74-4ae2-bd90-bea13809fb46",
+              "vanity_url": "https://www.credly.com/org/ansys",
+              "verified": false
+            },
+            "label": "Issued by",
+            "primary": true
+          }
+        ],
+        "summary": "issued by Ansys"
+      },
+      "last_updated_at": "2023-07-31T02:37:34.680-05:00",
+      "locale": "en",
+      "public": true,
+      "recommendations": [],
+      "state": "accepted",
+      "translate_metadata": false,
+      "updated_at": "2023-07-31T02:37:34.681-05:00",
+      "user_is_earner": false
+    }
+  ],
+  "metadata": {
+    "count": 1,
+    "current_page": 1,
+    "next_page_url": null,
+    "per": 48,
+    "previous_page_url": null,
+    "total_count": 1,
+    "total_pages": 1
+  }
+}
