@@ -1,4 +1,4 @@
-name: Update badges (pemtajo)
+name: Update Badges (pemtajo)
 # Reference: https://pemtajo.medium.com/how-to-improve-your-github-profile-by-adding-badges-2c10363f4f9a
 
 on: # Controls when the workflow will run
