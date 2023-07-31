@@ -1,0 +1,30 @@
+name: Update badges (pemtajo)
+# Reference: https://pemtajo.medium.com/how-to-improve-your-github-profile-by-adding-badges-2c10363f4f9a
+
+on: # Controls when the workflow will run
+
+  # Runs at 2am UTC
+  schedule:
+      - cron: "0 2 * * *"
+
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  update-readme:
+    name: Update Readme with badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Badges - Readme
+        uses: pemtajo/badge-readme@main
+        with:       
+          CREDLY_USER: tiago-pomella-lobo # optional, but default will use the same from github
+          
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
