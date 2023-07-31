@@ -1,0 +1,17 @@
+name: Update badges
+
+# Reference: https://pemtajo.medium.com/how-to-improve-your-github-profile-by-adding-badges-2c10363f4f9a
+
+on:
+  schedule:
+    # Runs at 2am UTC
+    - cron: "0 2 * * *"
+jobs:
+  update-readme:
+    name: Update Readme with badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Badges - Readme
+        uses: pemtajo/badge-readme@main
+        with:       
+          CREDLY_USER: tiago-pomella-lobo # optional, but default will use the same from github
