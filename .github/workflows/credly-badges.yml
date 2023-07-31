@@ -19,7 +19,7 @@ jobs:
       # Reference: https://www.michaelcontento.de/en/article/2022/10/19/scraping-credly-with-github-actions/
       - uses: michaelcontento/credly2hugo-action@v1
         with:
-          name: tiago-pomella-lobo # The user of whom we want to grab the infos
+          username: tiago-pomella-lobo # The user of whom we want to grab the infos
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
