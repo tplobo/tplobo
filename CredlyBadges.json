@@ -47,6 +47,8 @@
         },
         "level": "Foundational",
         "name": "Ansys CodeFest Participant",
+        "owner_vanity_slug": "ansys",
+        "public": true,
         "show_badge_lmi": false,
         "show_skill_tag_links": false,
         "skills": [
