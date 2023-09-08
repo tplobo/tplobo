@@ -13,6 +13,7 @@
             "url": null
           }
         ],
+        "badge_template_earnable": false,
         "cost": "Free",
         "description": "As a participant in this event, individuals work as part of a team with students of differing education backgrounds to strategically use Ansys Developer Tools (ex. PyAnsys kits) and Python to create applications that solve real-world problems. They then present their solution as well as the challenges it helps solve to a team of judges comprised of Ansys experts and professors.",
         "earn_this_badge_url": null,
