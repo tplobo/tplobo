@@ -52,6 +52,38 @@
         "public": true,
         "recipient_type": "User",
         "recommendable": true,
+        "related_badge_templates": [
+          {
+            "id": "7f7b706b-f0c8-4bf8-9cfd-909277e874d5",
+            "image": {
+              "id": "74dfb106-e616-497f-8d52-6cb2451362da",
+              "url": "https://images.credly.com/images/74dfb106-e616-497f-8d52-6cb2451362da/image.png"
+            },
+            "image_url": "https://images.credly.com/images/74dfb106-e616-497f-8d52-6cb2451362da/image.png",
+            "name": "Ansys Course Completion: Developing WebApps for Modeling and Simulation Using PyAnsys",
+            "url": "https://www.credly.com/org/ansys/badge/ansys-course-completion-developing-webapps-for-mode"
+          },
+          {
+            "id": "271e7e2c-acef-4514-91e3-b3e818977554",
+            "image": {
+              "id": "aac7acde-e25c-45ab-baff-6ffbd7ea897d",
+              "url": "https://images.credly.com/images/aac7acde-e25c-45ab-baff-6ffbd7ea897d/image.png"
+            },
+            "image_url": "https://images.credly.com/images/aac7acde-e25c-45ab-baff-6ffbd7ea897d/image.png",
+            "name": "Ansys Course Completion: Fundamentals of Mechanical Design and Analysis Using Ansys Discovery",
+            "url": "https://www.credly.com/org/ansys/badge/ansys-course-completion-fundamentals-of-mechanical-"
+          },
+          {
+            "id": "a6229766-d537-4290-9fbf-54116cd5b597",
+            "image": {
+              "id": "703dfa6b-4245-4ec8-a574-a30d35e68ce0",
+              "url": "https://images.credly.com/images/703dfa6b-4245-4ec8-a574-a30d35e68ce0/image.png"
+            },
+            "image_url": "https://images.credly.com/images/703dfa6b-4245-4ec8-a574-a30d35e68ce0/image.png",
+            "name": "Ansys Course Completion: Intro to Python",
+            "url": "https://www.credly.com/org/ansys/badge/ansys-course-completion-intro-to-python"
+          }
+        ],
         "show_badge_lmi": false,
         "show_skill_tag_links": false,
         "skills": [
